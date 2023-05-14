@@ -4,7 +4,6 @@
 
 
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap);
-
 body {
 	font-family: 'Dosis', sans-serif;
 	
@@ -14,10 +13,9 @@ body {
 	
 	color:#666666;
 
-	background:whitesmoke;
-	
-}
+	background:#FFF
 
+}
 textarea {
 outline:none;    resize: none;
 }
@@ -75,9 +73,9 @@ outline:none;    resize: none;
 input{outline:none}
 .img_link{cursor:pointer; border:0}
 .img_menu{width:50px; margin-right:10px; float:left; padding-top:5px }
-.img_mini{  
+  .img_mini{  
   background: rgba(255, 255, 255, 1);  padding: 4px;  line-height: 1em;  -webkit-border-radius: 4px;  -moz-border-radius: 4px;  -ms-border-radius: 4px;  -o-border-radius: 4px;  border-radius: 4px;  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);  margin-right: 5px; margin-left:5px;   margin-bottom:10px;  -webkit-transition: all 0.2s ease-out;  -moz-transition: all 0.2s ease-out;  -ms-transition: all 0.2s ease-out;  -o-transition: all 0.2s ease-out;  transition: all 0.2s ease-out;   -webkit-border-radius: 4px;  -moz-border-radius: 4px;  -ms-border-radius: 4px;  -o-border-radius: 4px;  border-radius: 4px;  border: 1px solid rgba(0, 0, 0, 0.3);    height:85px; width:120px;   cursor:pointer; float:left }
-.img_mini:hover{ background-color: #000;}  
+  .img_mini:hover{ background-color: #000;}  
   
 .iservice{display:inline; position:relative}
 .iservice_miolo{position:relative; height:160px}
@@ -91,9 +89,12 @@ text-transform:uppercase;
     background-repeat: none;
   
     z-index: 0;
-}
+	
+	
+	
+  }
   
-.sept{position:relative; width:10%; height:3px; background:url(../img/sept.png); margin-top:15px}
+  .sept{position:relative; width:10%; height:3px; background:url(../img/sept.png); margin-top:15px}
 
 .titulo h1{position:relative;  color:#FFF; width:100%;text-shadow: 4px 4px 4px rgba(0,0,0,0.2); font-family: 'Noto Sans', sans-serif; font-size:35px; text-align:center ; margin-bottom:0 }
 .titulo h1 span{font-size:20px; color:#fff; text-shadow:none}
@@ -102,7 +103,7 @@ text-transform:uppercase;
 
 
 
-h1{font-size:35px;  font-weight:bold; ; color:#570f74;  font-family: 'Dosis', sans-serif;  padding:10px; padding-left:0; margin-left:0px; font-family: 'Noto Sans', sans-serif;
+h1{font-size:35px;  font-weight:bold; ; color:#E1383B;  font-family: 'Dosis', sans-serif;  padding:10px; padding-left:0; margin-left:0px; font-family: 'Noto Sans', sans-serif;
 	
 
 }
@@ -122,7 +123,7 @@ h6{font-size:24px; margin-bottom:2; padding-top:10px; padding-left:22px; font-we
 li{margin-left:20px; line-height:30px}
 a {
 	
-	color: #63c20a;
+	color: #333333;
 	font-size:15px
 }
 a:link {
@@ -219,17 +220,15 @@ width:90%; margin-bottom:7px;   margin-top:5px;  height:30px; padding-left:10px;
     -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
-	 -o-filter: grayscale(100%);
-	filter: grayscale(100%);cursor:pointer
-}
+     -o-filter: grayscale(100%);
+filter: grayscale(100%);cursor:pointer}
 
 .img_clientes:hover{  max-width:120px;  max-height:70px;
     -webkit-filter: grayscale(10%);
    -moz-filter: grayscale(10%);
     -ms-filter: grayscale(10%);
      -o-filter: grayscale(10%);
-	filter: grayscale(10%); 
-}
+filter: grayscale(10%); }
 .parceiros{position:relative; width:940px; height:119px; background:url(../img/fundo_parceiros.png); padding-top:50px}
 .label_parceiros{position:absolute; top:30px; left:50px}
 .img_parceiros{max-width:110px; max-height:60px}
@@ -279,7 +278,7 @@ width:320px; margin-bottom:7px; height:80px; padding-left:10px; padding-top:10px
 
 .noticias{padding-bottom:13px; border-bottom:dotted 1px #999999; }
 .texto{padding:0 22px; min-height:400px; padding-bottom:30px}
-.box{position:relative; float:left; margin:0.5%; width:9.2%; font-size:14px;  text-align:center; height:160px; cursor:pointer;
+	.box{position:relative; float:left; margin:0.5%; width:9.2%; font-size:14px;  text-align:center; height:160px; cursor:pointer;
 	;  text-align:center; background:#FFFFFF; border:solid 1px #CCCCCC;-webkit-border-radius: 4px;  -moz-border-radius: 4px;  -ms-border-radius: 4px;  -o-border-radius: 4px;  border-radius: 4px;  padding:1% ; text-transform:uppercase; font-weight:400; padding-top:20px
 	}
 	.box:hover{text-decoration:underline; border:#000066 1px  solid}
@@ -348,15 +347,13 @@ width:320px; margin-bottom:7px; height:80px; padding-left:10px; padding-top:10px
 
 .line_top{position:relative; width:100%; background:#000; height:4px}
 
-.separa{
-	color: #000;
-}
+.separa{}
 
 .busca{position:relative; background:url(../img/back_busca.png) center; height:33px; width:100%; margin-top:2px}
 .busca_form{position:absolute; width:214px; height:14px; background:url(../img/back_busca_input.png); top:155px; right:0; z-index:1111}
 .busca_label{font-size:11px; position:absolute; top:155px; right:220px; text-align:right; z-index:1111111}
 .form_busca{position:absolute; top:-1px; left:10px; border:none; background:none; width:180px; font-size:11px; color:#FFFFFF; height:13px}
-.logo{position:absolute; left:10px; top:2px; z-index:1;}
+.logo{position:absolute; left:3%; top:42px; z-index:1}
 .perfis{position:absolute; left:250px; top:82px; z-index:111}
 .slogan{position:absolute; left:1%; top:8px; color:#F8BA04; font-size:14px; font-family: 'Noto Sans', sans-serif;  }
 .menu_back{ background:url(../img/back_menu.png); width:100%; height:50px; top:162px; position:absolute; left:0; z-index:111 }
@@ -366,7 +363,7 @@ width:320px; margin-bottom:7px; height:80px; padding-left:10px; padding-top:10px
 .menu_lateral{position:relative; border-bottom:solid 1px #CCCCCC; padding-bottom:10px; padding-top:10px}
 .menu_link{position:relative; float:right; text-align:center;  height:31px ; font-size:15px;  cursor:pointer; padding-top:8px;  font-weight:bold; font-family: 'Dosis', sans-serif;  margin-right:1px ; font-weight:700; padding-left:2%; padding-right:2%;  -webkit-transition: 0.4s all ease;
   transition: 0.4s all ease; color:#000}
-.menu_link:hover{   color:#420864 }
+.menu_link:hover{   color:#E1383B }
 
 .cab2{display:none }
 #seta_l{position:absolute; width:47px; height:60px; background:url(../img/seta-l.png); top: 155px; left: -50px; cursor:pointer}
@@ -375,15 +372,15 @@ width:320px; margin-bottom:7px; height:80px; padding-left:10px; padding-top:10px
 #seta_r{position:absolute; width:47px; height:60px; background:url(../img/seta-r.png); top: 155px; left: 990px; cursor:pointer}
 #seta_r:hover{position:absolute; width:47px; height:60px; background:url(../img/seta-r-on.png); top: 155px; left: 990px; cursor:pointer}
 
-.foot{position:relative; width:100%; font-size:14px; height:320px; font-family: 'Noto Sans', sans-serif; background:#000;  padding-top:30px;  color:whitesmoke; border-top: 3px solid purple; }
+.foot{position:relative; width:100%; font-size:14px; height:320px; font-family: 'Noto Sans', sans-serif; background:#000;  padding-top:30px;  color:#fff; border-top: 3px solid #CB0000; }
 .foot_miolo{position:relative; width:80%; text-align:center; }
 .foot_boxl{position:relative; float:left; width:21%; text-align:left; padding:1%;  line-height:25px; color:#fff }
 .foot_boxd{position:relative; float:left; width:19%; text-align:left; padding:1%;  line-height:25px; color:#fff }
 .foot_boxm{position:relative; float:left; width:20%; text-align:left; margin-left:2%; margin-right:6%; line-height:25px }
-.foot_boxl h1{font-size:20px; color:rgb(111, 3, 121); font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
-.foot_boxd h1{font-size:20px; color:rgb(111, 3, 121); font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
-.foot_boxm h1{font-size:20px; color:rgb(111, 3, 121); font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
-.i3web{position:relative; padding-top:10px; padding-bottom:10px; background:rgb(111, 3, 121); width:98%; text-align:right; padding-right:2%}
+.foot_boxl h1{font-size:20px; color:#fff; font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
+.foot_boxd h1{font-size:20px; color:#fff; font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
+.foot_boxm h1{font-size:20px; color:#fff; font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px; }
+.i3web{position:relative; padding-top:10px; padding-bottom:10px; background:#333333;; width:98%; text-align:right; padding-right:2%}
 .horario{ position:absolute; right:20px; top:95px}
 .foot_fones{position:relative;  color:#FFFFFF; font-size:23px; font-weight:100; text-align:center; margin-top:10px; font-family:  Helvetica Narrow, sans-serif}
 .logos{position:relative; text-align:center; margin-top:10px; width:1050px; margin-left:-20px}
@@ -432,21 +429,14 @@ width:320px; margin-bottom:7px; height:50px; color:#333333; margin-top:5px;  bor
 .banners{position:relative; width:100%; height:340px; margin:0; margin-bottom:20px; margin-top:0; padding:0}
 
 .end{position:absolute; top:12px;left:60%;  font-size:14px; color:#ccc;}
-.email{position:absolute; top:15px; right:30%; font-family:'Dosis', Helvetica, sans-serif; text-align: center; font-size:14px; color:#fff; background:url(../img/35.png) left no-repeat; padding-left:30px; font-weight:400; height:17px; padding-top:3px}
+.email{position:absolute; top:15px; right:30%; font-family:'Dosis', Helvetica, sans-serif text-align:right; font-size:14px; color:#fff; background:url(../img/35.png) left no-repeat; padding-left:30px; font-weight:400; height:17px; padding-top:3px}
 .social{position:absolute; top:5px; right:2%;font-family: 'Noto Sans', sans-serif;;text-align:right; font-size:19px; color:#F8BA04;  font-weight:bold; }
-.fone{position:absolute; top:5px; right:4%;font-family: 'Noto Sans', sans-serif;;text-align:right; font-size:19px; color:black;  font-weight:bold; }
-.fone span{font-size:14px ; font-weight:100; color:rgb(111, 3, 121); margin-top:-3px}
+.fone{position:absolute; top:5px; right:4%;font-family: 'Noto Sans', sans-serif;;text-align:right; font-size:19px; color:#FFF;  font-weight:bold; }
+.fone span{font-size:14px ; font-weight:100; color:#FFFFFF; margin-top:-3px}
 .carrinho{position:absolute; width:48px; height:34px; color:#FFFFFF; top:2px; right:3%;background:url(../img/bcak_car.png); cursor:pointer}
 .carrinho span{position:absolute; right:3px; bottom:3px; font-size:15px	; text-align:center; width:20px; }
 .fone span{font-size:13px; font-weight:100}
-.loca{
-	letter-spacing: 2px;
-	position:absolute;
-	top:10px; 
-	left: 31%; 
-	font-size: 25px; 
-	color: black;
-}
+.loca{position:absolute; top:10px; left: 4%; font-size: 15px; color: #fff;}
 .fita{ position:relative; width:100%;  background:none; color:#fff; font-size:14px; text-align:right; position:relative; height:40px; border-bottom: 1px #CCCCCC solid;}
 
 .cab{position:relative; width:100%; height:130px; background:#fff ; background:url(../img/b-cab.png); z-index:9999;  -moz-background-size: 100% 100%  ;
@@ -617,7 +607,7 @@ background-size: 100% 100% ;}
   .box_button{margin:10px; width:50%; padding:10px; border:solid 1px #CCC;  background:#FFFFFF; text-align:center; font-family: 'Dosis', sans-serif; font-size:1.5em}
   .box_button span{color:#F7B314}
   .button{width:300px; padding:10px; color:#fff; font-size:16px; background:#000; position:relative; text-align:center; cursor:pointer; font-weight:bold;transition: all ease-in-out .7s ; border-radius: 6px 6px 0 0  }
-  .button:hover{background:purple; color:#FFFFFF}
+  .button:hover{background:#E1383B; color:#FFFFFF}
   
   .buttond{width:60%; padding:2%; color:#FFFFFF; font-size:16px; background:#0081D7; position:relative; text-align:center; cursor:pointer;; position:absolute; bottom:20px; left:20px   }
   .buttond:hover{background:#000; color:#FFFFFF}
@@ -752,13 +742,13 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 .foottop h1{margin:0; padding:0; text-shadow: 0 -1px 0 rgba(0,0,0,0.2);}
 .buttontop{padding:2%; border:solid 1px #FFFFFF; color:#FFFFFF; width:300px; text-align:center; cursor:pointer}
 .buttontop:hover{background:#EE9A20}
-.mp{padding:3%;  text-align:center; width:96%; position:relative;  padding-top: 12px; background:url(../imagens/purpleeffectblackred.2.png); background-size: 100%;; color:#fff; -webkit-transition-timing-function: ease-out;
+.mp{padding:2%; text-align:center; width:96%; position:relative;  padding-top: 70px; background:url(../img/mp2.png); background-size: 100%;; color:#fff; -webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
 -webkit-transition-duration: 350ms;
-	transition-duration: 350ms;  margin-top: -50px; z-index: 99999; height: 15px;  }
+	transition-duration: 350ms;  margin-top: -50px; z-index: 99999; height: 50px;  }
 
-.lista_prod{position:relative; float:left;  width:22,2%;  text-align:left; cursor:pointer;   height:300px; background:#FFFFFF
-;  margin:5%;   color:#666; background:#fff; border:solid 1px #F5F5F5; font-size:20px; font-size:17px
+.lista_prod{position:relative;float:left;  width:22.2%;  text-align:left; cursor:pointer;   height:370px; background:#FFFFFF
+;  margin:1%;   color:#666; background:#fff; border:solid 1px #F5F5F5; font-size:20px; font-size:17px
 ; font-weight:bold; text-transform:uppercase; font-family:'Dosis', Helvetica, sans-serif; color:#000000;  -webkit-transition-timing-function: ease-out;
 	        transition-timing-function: ease-out;
 	-webkit-transition-duration: 350ms;
@@ -778,7 +768,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 .comprar{position:absolute; width:100%; text-align:center; bottom:5px; z-index:999999}
 .nome{font-size:1.2em; font-family:'Roboto Condensed', Helvetica, sans-serif; color:#7D0425}
 
-.lista_prod2{position:relative;float:left;  width:22.2%;  text-align:center; cursor:pointer;   height:300px; background:#FFFFFF
+.lista_prod2{position:relative;float:left;  width:22.2%;  text-align:center; cursor:pointer;   height:440px; background:#FFFFFF
 ;  margin:1.2%;  background:#000; color:#FFFFFF
 }
 
@@ -806,7 +796,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 
 .det_text{position:relative; float:right; width:45%; font-size:16px; margin-top:0px; border-left:solid 1px #CCCCCC; padding-left:5%}
 .det_text p{margin-bottom:20px}
-.det_text h1{font-size:25px; margin-bottom:20px; color:#5e0b85}
+.det_text h1{font-size:25px; margin-bottom:20px; color:#EA353A}
 .imgmove{max-height:450px}
 .anos{position:absolute; top:5px; left:300px; z-index:999999999999}
 .miolocli{position:relative; display:block}
@@ -822,54 +812,9 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 980px) {
 
-.icones{position: relative;; float: left; width: 90%; padding: 2%; height: auto; color: #000; text-align:center ; background: #fff; border-radius: 10px; margin: 1%;  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5); }
+	.icones{position: relative;; float: left; width: 90%; padding: 2%; height: auto; color: #000; text-align:center ; background: #fff; border-radius: 10px; margin: 1%;  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5); }
 .icones h2{color: #999; margin: 0; text-align: center; }
 
 
@@ -903,7 +848,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 .foottopimg{position:absolute; left:2%; bottom:0; display:none}
 
 
-.lista_prod{position:relative;float:left;  width:96%;  text-align:left; cursor:pointer;   height:300px; 
+.lista_prod{position:relative;float:left;  width:96%;  text-align:left; cursor:pointer;   height:400px; 
 ;  margin:1%;   color:#666; ; border:solid 1px #F5F5F5; font-size:20px;  font-size:17px
 ; font-weight:bold; text-transform:uppercase; font-family:'Dosis', Helvetica, sans-serif; color:#000000;  -webkit-transition-timing-function: ease-out;
 	        transition-timing-function: ease-out;
@@ -925,7 +870,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 .comprar{position:absolute; width:100%; text-align:center; bottom:5px; z-index:999999}
 .nome{font-size:1.2em; font-family:'Roboto Condensed', Helvetica, sans-serif; color:#7D0425}
 
-.lista_prod2{position:relative;float:left;  width:22.2%;  text-align:center; cursor:pointer;   height:300px; background:#FFFFFF
+.lista_prod2{position:relative;float:left;  width:22.2%;  text-align:center; cursor:pointer;   height:440px; background:#FFFFFF
 ;  margin:1.2%;  background:#000; color:#FFFFFF
 }
 
@@ -960,7 +905,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 .fonef span{font-size:13px; font-weight:100; color:#666}
 .emailf{position:relative; padding-left:40px; background:url(../img/35.png) no-repeat;  font-weight:100;  margin-bottom:20px ; text-align:left; color:#666; float:none;; margin-left:0}
 
-.endf{color:#666 }
+.endf{1color:#666 }
 .fonef1{color:#666 }
 .fonef1 span{font-size:13px; font-weight:100}
 .emailf1{color:#666}
@@ -1173,9 +1118,9 @@ text-transform:uppercase;
 .titulo h1{font-weight:bold; margin:0; font-size:1.5em; width:100%; font-family: 'Noto Sans', Courier, monospace;}
 .mestra_titulo{position:relative; width:100%; background:url(../img/fundo_maps.png); margin-top:120px; text-align:left}
 
-.logo{position:absolute;  z-index:111; top: 1px; left:5%;   }
+.logo{position:absolute;  z-index:111; top:40px; left:5%}
 
-.fone{position:absolute; top:5px; right:5%;font-family: 'Noto Sans', sans-serif;;text-align:right; font-size:15px; color:black;  font-weight:bold; z-index: 99999999999; }
+.fone{position:absolute; top:5px; right:5%;font-family: 'Noto Sans', sans-serif;;text-align:right; font-size:19px; color:#FFF;  font-weight:bold; z-index: 99999999999; }
  .port-box li {
 	position: relative;
 	float: none;
@@ -1268,7 +1213,7 @@ margin-right:0
 .foot_boxd{position:relative; float:left; width:96%; text-align:left; padding:1%;  line-height:25px; color:#fff }
 .foot_boxl h1{font-size:20px;font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px;text-shadow: 0 -1px 0 rgba(0,0,0,0.2); text-align:left }
 .foot_boxm h1{font-size:20px;  font-weight:bold; ;   font-family: 'Dosis', sans-serif; margin:0; padding:0; margin-bottom:10px;text-shadow: 0 -1px 0 rgba(0,0,0,0.2); text-align:left }
-.i3web{position:relative; padding-top:10px; padding-bottom:10px; background:#333333;; width:98%; text-align:right; padding-right:2%}
+.i3web{position:absolute; padding-top:10px; padding-bottom:10px; background:#333333;; width:98%; text-align:right; padding-right:2%}
 
 .boxlp{position:relative; float:left; width:100%; padding:0;  height:auto; text-align:left; }
 .boxl_img{ height:auto; float:left; margin-right:0; margin-bottom:20px; width:100% }
