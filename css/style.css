@@ -13,3 +13,48 @@
         flex-direction: column;
     }
 }
+ 
+ 
+@media  (min-width:768px){
+    body{
+        background-position : 0px -100px;
+        
+
+    }
+    
+    
+}
+
+@keyframes scroll {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 0px -200px;
+    }
+  }
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}  
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: coral;
+}
+p{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+}
+a{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 80px;
+    color: red;
+    align-content: center;
+
+}
