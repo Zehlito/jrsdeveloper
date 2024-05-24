@@ -22,3 +22,13 @@ a{
     align-content: center;
 
 }
+body {
+    
+    background-image: url(/images/wallpaper.jpg);
+    width: max-content;
+    opacity: 0,3;
+    animation: scroll 25s linear infinite;
+    
+    
+    
+}
