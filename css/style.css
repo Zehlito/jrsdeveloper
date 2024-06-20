@@ -13,14 +13,18 @@ p{
     text-align: center;
     color: red;
 }
-a{
+a
+{  
+    text-decoration: none;
     display: flex;
-   justify-content: center;
-   align-items: center;
-    font-size: 80px;
-    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 110, 255);
     align-content: center;
-
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: bold;
 }
 body {
     
