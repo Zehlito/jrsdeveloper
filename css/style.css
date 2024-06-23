@@ -36,3 +36,11 @@ body {
     
     
 }
+img {
+    width: 250px;
+    height: 300px;
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  
