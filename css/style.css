@@ -8,11 +8,13 @@ h2{
     text-align: center;
     color: coral;
 }
+
 p{
     font-size: 80px;
     text-align: center;
     color: red;
 }
+
 a
 {  
     text-decoration: none;
@@ -26,21 +28,19 @@ a
     font-weight: 400;
     font-style: bold;
 }
+
 body {
     
     background-image: url(/images/wallpaper.jpg);
     width: 100%;
     height: 100%;
     animation: scroll 25s linear infinite;
-    
-    
-    
 }
-img {
-    width: 250px;
-    height: 300px;
-    margin-left: 550px;
+
+.imgQRcode {
+    
     display: flex;
     justify-content: center;
-  }
+    
+}
   
