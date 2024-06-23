@@ -15,7 +15,7 @@ h3{
     text-align: center;
 }
 p{
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     color: azure;
 }
@@ -51,7 +51,10 @@ body {
   }
 
 img{
-    display: block;
-    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
 }
   
