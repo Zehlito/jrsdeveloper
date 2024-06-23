@@ -37,10 +37,10 @@ body {
     animation: scroll 25s linear infinite;
 }
 
-.imgQRcode {
+.qrCode {
     
     display: flex;
     justify-content: center;
     
-}
+  }
   
