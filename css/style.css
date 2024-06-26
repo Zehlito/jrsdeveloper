@@ -55,11 +55,9 @@ body {
   }
 
 .imgLogo{
-    max-width: 350px; 
-    max-height: 300px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+    margin: auto;
+    display: block;
+    width: 60%;
     
 
 }
