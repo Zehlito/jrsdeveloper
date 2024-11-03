@@ -6,14 +6,6 @@
     font-family: Arial, sans-serif;
 }
 
-#img1 {
-    display: block;
-    margin: 0 auto; /* Margens automáticas para centralizar */
-    width: 800px; /* Defina uma largura específica */
-    padding: 20px;
-            
-    
-}
 
 /* Estilos básicos da página */
 body {
@@ -26,8 +18,8 @@ body {
 
 /* Container principal */
 .container {
-    width: 100%;
-    max-width: 800px;
+    width: 80%;
+    
 }
 
 /* Título do blog */
@@ -38,6 +30,15 @@ h1 {
     font-weight: bold;
     font-size: 350%;
     
+}
+
+/* Estilo do Top */
+.top {
+    background-color: #646060;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 /* Estilo dos posts */
@@ -73,4 +74,21 @@ h1 {
 .images{
     width: 750px;
     padding: 20px;
+}
+.imagesTop{
+    width: 100%; 
+    
+}
+
+/* Estilos responsivos: */
+@media (max-width: 768px) {
+    .post {
+        width: 100%;
+    }
+    .images {
+        width: 100%;
+    }
+    .imagesTop {
+        width: 100%;
+    }
 }
