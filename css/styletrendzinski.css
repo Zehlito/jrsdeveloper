@@ -9,7 +9,7 @@
 
 /* Estilos básicos da página */
 body {
-    background-color: #f4f4f4;
+    background-image: url('/images/wallpaper.jpg');
     color: #333;
     padding: 20px;
     display: flex;
@@ -39,11 +39,28 @@ h3 {
     font-size: 50%;
     
 }
+.otherColor {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    font-size: 25%;
+    
+}
 
 
 /* Estilo do Top */
 .top {
     background-color: #646060;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estilo do TopUs */
+.topUs {
+    background-color: #ffffff;
     border-radius: 18px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
@@ -85,10 +102,29 @@ h3 {
     padding: 20px;
 }
 .imagesTop{
-    width: 100%; 
+    width: 20%; 
     
 }
-
+.doguitto
+{
+    border-radius: 20px;
+    width: 20%;
+    margin-left: 30px;
+}
+.doguittoLogo
+{
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    
+}
+.doguittoLogo2
+{
+    
+    width: 40%;
+    align-items: center;
+    
+}
 /* Estilos responsivos: */
 @media (max-width: 768px) {
     .post {
