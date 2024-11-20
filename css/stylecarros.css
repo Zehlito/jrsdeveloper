@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0baba;
+}
+
+header {
+    background-color: #000000;
+    color: #eff30a;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .carros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .carro {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+main .carro img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+main .carro h3 {
+    margin-top: 10px;
+}
+
+main .carro p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+    }
+
+    header nav .menu-icon {
+        display: block;
+    }
+
+    header nav .menu-icon span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-bottom: 5px;
+    }
+
+    header nav .menu-icon span:nth-child(2) {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    header nav .menu-icon span:nth-child(3) {
+        margin-top: 5px;
+    }
+
+    header nav .menu-mobile {
+        display: none;
+    }
+
+    header nav .menu-icon:hover .menu-mobile {
+        display: block;
+    }
+
+    header nav .menu-mobile ul {
+        display: block;
+        background-color: #333333;
+        padding: 10px;
+    }
+
+    header nav .menu-mobile ul li {
+        display: block;
+        margin: 0;
+    }
+
+    header nav .menu-mobile ul li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    main .carros {
+        flex-direction: column;
+    }
+
+    main .carro {
+        width: 100%;
+    }
+}
