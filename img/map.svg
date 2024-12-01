@@ -4444,7 +4444,10 @@
 	<circle opacity="0.2" fill="#FFFFFF" cx="140.139" cy="84.714" r="1.036"/>
 	<circle opacity="0.2" fill="#FFFFFF" cx="140.139" cy="87.437" r="1.036"/>
 	<circle opacity="0.2" fill="#FFFFFF" cx="140.139" cy="79.268" r="1.036"/>
-	<circle fill="#C81010" cx="140.139" cy="81.991" r="1.036"/>
+
+	<!-- Localização do ponto vermelho eixo "X" e "Y"-->
+	<circle fill="#fa0e0e" cx="85.139" cy="149.991" r="1.6"/>
+	<!-- Point red location "X" and "Y" axis-->
 	<circle opacity="0.2" fill="#FFFFFF" cx="140.139" cy="54.764" r="1.036"/>
 	<circle opacity="0.2" fill="#FFFFFF" cx="140.139" cy="57.486" r="1.036"/>
 	<path opacity="0.2" fill="#FFFFFF" d="M108.967,47.155c-0.179-0.147-0.408-0.236-0.658-0.236c-0.572,0-1.036,0.464-1.036,1.037
